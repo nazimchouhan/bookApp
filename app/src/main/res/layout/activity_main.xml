@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/purple"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="Sign UP"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Username"
+        android:paddingLeft="20dp"
+        android:id="@+id/username"
+        android:textStyle="normal"
+        android:textSize="30sp"
+        android:background="@drawable/edittext"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/password"
+        android:text="Password"
+        android:textStyle="normal"
+        android:textSize="30sp"
+        android:background="@drawable/edittext"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Confirm Password"
+        android:paddingLeft="20dp"
+        android:textStyle="normal"
+        android:id="@+id/confpass"
+        android:textSize="30sp"
+        android:background="@drawable/edittext"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/register"
+        android:textSize="20sp"
+        android:text="REGISTER"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have Account"
+        android:id="@+id/aha"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+</LinearLayout>
