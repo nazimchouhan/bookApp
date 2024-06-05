@@ -31,5 +31,5 @@ cd bookApp<Br>
 Programming Languages:Java<Br>
 Frameworks and Libraries: Android SDK, XML<Br>
 Database: SQLite<Br>
-Repo:io.github.afreakyelf:Pdf-Viewer:latest-version<Br>
+Repo: io.github.afreakyelf:Pdf-Viewer:latest-version<Br>
 Tools: Android Studio, Git, Gradle.<Br>
