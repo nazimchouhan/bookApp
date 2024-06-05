@@ -29,7 +29,7 @@ cd bookApp<Br>
 #Technologies Used
 
 Programming Languages:Java<Br>
-Frameworks and Libraries: Android SDK, XML
+Frameworks and Libraries: Android SDK, XML<Br>
 Database: SQLite<Br>
-Repo:io.github.afreakyelf:Pdf-Viewer:latest-version
+Repo:io.github.afreakyelf:Pdf-Viewer:latest-version<Br>
 Tools: Android Studio, Git, Gradle.<Br>
